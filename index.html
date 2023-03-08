@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>UNTITLED</title>
+  <!-- Font Awesome -->
+  <!-- Bootstrap core CSS -->
+     <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous"> <!-- JavaScript Bundle with Popper --> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script> 
+   
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--<link rel="shortcut icon" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/favicon.ico">-->
+  <!-- Your custom styles (optional) -->
+  <!-- this had NOTHING in it ???  -->
+  <!-- link href="css/style.css" rel="stylesheet" -->
+  
+  
+  
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+       <!-- <div id="chart_div" style="width: 400px; height: 120px;"></div> -->
+   
+  
+ <!-- MDB -->
+   <!-- MDB -->
+ <script
+   type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
+ ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style2.css">
+
+   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+  <style>
+    /* TEMPLATE STYLES */
+
+    main {
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+    }
+
+    .extra-margins {
+      margin-top: 1rem;
+      margin-bottom: 2.5rem;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <!--Main Navigation-->
+  <header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color-dark">
+      <a class="navbar-brand ml-4" href="#"><strong>Soil Classifier</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Something</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Settings</a>
+          </li>
+		  
+          
+        </ul>
+				  <ul class="navbar-nav "> 
+				  <li class="nav-item active">
+            <a class="nav-link d-flex justify-content-end" href="#">Logout</a>
+          </li>
+          
+        </ul>
+  
+      </div>
+    </nav>
+
+  </header>
+  
+  <body>
+    
+<div class="container-fluid">
+<div class="row m-3">
+<div class="col-md-6 border border-primary-2 border-radius-3" style="height: 86vh ">
+<h3> pH Meter </h3>
+
+<div id="container2" class="row">
+<div id="col-md-12">
+<input id="crop-input" placeholder="Type and select the crop you want to grow"></input>
+ </div>
+ <div class="w-100"></div>
+<div id="chart_div"   class="col-md-7 justify-content-end border border-primary mt-2">
+</div>
+<div class="pH_status col-md-5 border border-warning text-center text-bold"><p id="status">Alkaline</p></div>
+<div id=""   class="col-md-12 border border-secondary">
+ <input id="crop-input" type="number"  placeholder="Type pH"> <label>custom pH value</label></input>
+ <button class="m-2"> Submit</button>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="col-md-6 border border-primary-4" style="height: 86vh">
+<h3> Insights</h3>
+<div class="row">
+<div class=" card col-md-11 m-3 justify-content-center text-center lead" style="font-weight:">
+<p> Estimated NPK levels(%): </p>
+<p class="m-0"> N: 50 </p>
+<p class="m-0"> P: 20</p>
+<p class="m-0"> K: 75</p>
+</div>
+<div class=" card col-md-11 m-3 justify-content-center text-left lead" style="font-weight:">
+<p> If you want to grow <strong>rice</strong>: </p>
+
+<p class="m-0 w-100"> > Increase N to 70. Apply Ammonium Nitrate (50Kg/ha)</p>
+<p class="m-0 w-100"> > P is sufficient. </p>
+<p class="m-0 w-100"> > Increase K to 85. Apply Potassium Sulphate (30Kg/ha)</p>
+<p class="m-0 w-100"> > Increase pH to 7.5. Apply Leach (20Kg/ha)</p>
+</div>
+
+<div class=" card col-md-11 m-3 justify-content-center text-left lead" style="font-weight:">
+<p> <strong>Recommended Crops:</strong>: </p>
+
+<p class="m-0 w-100"> > Potatoes, Maize, Carrots, Tobacco etc</p>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script  src="index.js"></script>
+</body>
+</html>
